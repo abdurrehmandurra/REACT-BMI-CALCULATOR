@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,700&display=swap");
+body {
+	font-family: "Lora", serif;
+}
+.title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 1.2cm;
+}
+.box2 {
+	padding: 2cm 0;
+}
+.box {
+	background-color: white;
+	padding: 2cm;
+	/* width: 50%; */
+	border-radius: 10px;
+	box-shadow: 0 0 5px 2px lightgray;
+}
+.form-control-lg {
+	border: 1px solid #ccc9c9;
+	outline: none;
+	border-radius: 5px;
+}
+.weight-box .form-control-lg:focus {
+	border-radius: 5px;
+	box-shadow: 0 0 1px 1px rgb(74, 176, 201);
+	border: none;
+	outline: none;
+}
+.height-box .form-control-lg:focus {
+	border-radius: 5px;
+	box-shadow: 0 0 1px 1px rgb(74, 176, 201);
+	border: none;
+	outline: none;
+}
+.BMI-box {
+	background-color: rgba(211, 211, 211, 0.507);
+}
+.btn-cal {
+	background-color: rgb(218, 67, 67);
+	border-radius: 5px;
+	width: 100%;
+}
+.btn-cal:hover {
+	background-color: brown;
+}
+.btn-cal:focus {
+	box-shadow: none;
+}
+
+@media (min-width: 320px) {
+	.box {
+		padding: 0.5cm;
+	}
+	.box2 {
+		padding: 0.5cm;
+	}
+	.title {
+		font-size: 0.8cm;
+	}
+}
+
+@media (min-width: 768px) {
+	.box {
+		padding: 1cm;
+	}
+	.box2 {
+		padding: 0.5cm;
+	}
+	.title {
+		font-size: 1cm;
+	}
+}
